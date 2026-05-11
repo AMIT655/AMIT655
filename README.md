@@ -6,14 +6,6 @@ Computer Science Student passionate about coding and continuous learning 🚀
 
 ---
 
-<div align="center">
-
-<img src="" width="250"/>
-
-</div>
-
----
-
 ## 👨‍💻 About Me
 
 - 🎓 Computer Science Student
@@ -46,12 +38,6 @@ Computer Science Student passionate about coding and continuous learning 🚀
 </a>
 
 </p>
-
----
-
-## 💻 Coding Vibes
-
-<div align="center">
 
 <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="500"/>
 
