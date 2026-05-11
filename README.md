@@ -39,12 +39,5 @@ Computer Science Student passionate about coding and continuous learning 🚀
 
 </p>
 
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="500"/>
 
 </div>
-
----
-
-<h3 align="center">
-✨ Code • Build • Innovate ✨
-</h3>
