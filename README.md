@@ -67,21 +67,6 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<img src="assets/header-work.svg" width="100%" alt="03 / Work — selected projects" />
-
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://pizza-dot.web.app/"><img src="assets/work-pizza-dot.svg" width="100%" alt="Pizza Dot — a dynamic web application with a fluid, interactive ordering experience. React, Node, MySQL. Live at pizza-dot.web.app" /></a>
-    </td>
-    <td width="50%">
-      <a href="https://www.studimath.com/"><img src="assets/work-studimath.svg" width="100%" alt="StudiMath — a real-time multiplayer math-learning system where students compete and learn live. React, WebSockets, Spring Boot. Live at studimath.com" /></a>
-    </td>
-  </tr>
-</table>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
 <a href="https://amit-suissa-portfolio.vercel.app/">
   <img src="assets/connect-banner.svg" width="100%" alt="Let's build something. Open to full-stack roles — hybrid or on-site. Find me on GitHub or LinkedIn." />
 </a>
