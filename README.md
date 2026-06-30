@@ -19,7 +19,7 @@
 <p align="center">
   <a href="https://amit-suissa-portfolio.vercel.app/"><img src="assets/social-portfolio.svg" height="44" alt="Portfolio" /></a>&nbsp;
   <a href="https://github.com/AMIT655"><img src="assets/social-github.svg" height="44" alt="GitHub" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/amit-suisa-71880741a/"><img src="assets/social-linkedin.svg" height="44" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/amitsuissa/"><img src="assets/social-linkedin.svg" height="44" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:Amits5777@gmail.com"><img src="assets/social-email.svg" height="44" alt="Email" /></a>
 </p>
 

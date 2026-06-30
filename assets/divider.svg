@@ -1,26 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="48" viewBox="0 0 1280 48" fill="none" role="img" aria-label="section waypoint">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="52" viewBox="0 0 1280 52" fill="none" role="img" aria-label="section separator">
   <defs>
-    <radialGradient id="wglow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#5eead4" stop-opacity="0.4"/>
+    <radialGradient id="oglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <!-- soft pulsing glow -->
-  <circle cx="640" cy="24" r="30" fill="url(#wglow)" opacity="0.3">
-    <animate attributeName="opacity" values="0.16;0.4;0.16" dur="3.8s" repeatCount="indefinite"/>
+  <circle cx="640" cy="26" r="30" fill="url(#oglow)" opacity="0.3">
+    <animate attributeName="opacity" values="0.16;0.4;0.16" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- dark hexagon waypoint (own dark fill => the teal chevron stays readable
-       on GitHub light mode; on dark mode the teal outline + glow define it) -->
-  <polygon points="617,24 628.5,3.5 651.5,3.5 663,24 651.5,44.5 628.5,44.5"
-           fill="#0a0b0d" stroke="#5eead4" stroke-opacity="0.45" stroke-width="1.2">
-    <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="3.8s" repeatCount="indefinite"/>
-  </polygon>
-  <polygon points="617,24 628.5,3.5 651.5,3.5 663,24 651.5,44.5 628.5,44.5"
-           fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <!-- orbiting teal ring + satellite (echoes the hero monogram's orbit) -->
+  <g>
+    <circle cx="640" cy="26" r="20" fill="none" stroke="#5eead4" stroke-opacity="0.32" stroke-width="1.2" stroke-dasharray="2 7"/>
+    <circle cx="660" cy="26" r="2.6" fill="#5eead4"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 640 26" to="360 640 26" dur="26s" repeatCount="indefinite"/>
+  </g>
 
-  <!-- teal down-chevron (sits on the dark hex => good contrast in both themes) -->
-  <path d="M632 20.5 L640 28 L648 20.5" fill="none" stroke="#5eead4" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- dark node: dark fill keeps it visible on GitHub light mode; the teal
+       ring + center dot keep it visible on dark mode -->
+  <circle cx="640" cy="26" r="11" fill="#0a0b0d" stroke="#5eead4" stroke-opacity="0.6" stroke-width="1.4"/>
+  <circle cx="640" cy="26" r="2.6" fill="#5eead4">
+    <animate attributeName="opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
 </svg>
