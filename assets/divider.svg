@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="40" viewBox="0 0 1280 40" fill="none" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5eead4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dot" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="120" y="19.25" width="1040" height="1.5" fill="url(#line)"/>
+  <circle cx="640" cy="20" r="16" fill="url(#dot)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="632" y="12" width="16" height="16" rx="3" transform="rotate(45 640 20)" fill="#0a0b0d" stroke="#5eead4" stroke-opacity="0.7"/>
+</svg>
