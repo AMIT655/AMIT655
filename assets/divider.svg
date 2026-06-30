@@ -1,41 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="44" viewBox="0 0 1280 44" fill="none" role="img" aria-label="section divider">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="48" viewBox="0 0 1280 48" fill="none" role="img" aria-label="section waypoint">
   <defs>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#5eead4" stop-opacity="0.45"/>
+    <radialGradient id="wglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.4"/>
       <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <!-- soft pulsing glow -->
-  <circle cx="640" cy="22" r="26" fill="url(#glow)" opacity="0.32">
-    <animate attributeName="opacity" values="0.18;0.42;0.18" dur="3.6s" repeatCount="indefinite"/>
+  <circle cx="640" cy="24" r="30" fill="url(#wglow)" opacity="0.3">
+    <animate attributeName="opacity" values="0.16;0.4;0.16" dur="3.8s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- crosshair -->
-  <g stroke="#5eead4" stroke-opacity="0.55" stroke-width="1">
-    <line x1="626" y1="22" x2="654" y2="22"/>
-    <line x1="640" y1="10" x2="640" y2="34"/>
-  </g>
+  <!-- dark hexagon waypoint (own dark fill => the teal chevron stays readable
+       on GitHub light mode; on dark mode the teal outline + glow define it) -->
+  <polygon points="617,24 628.5,3.5 651.5,3.5 663,24 651.5,44.5 628.5,44.5"
+           fill="#0a0b0d" stroke="#5eead4" stroke-opacity="0.45" stroke-width="1.2">
+    <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="3.8s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="617,24 628.5,3.5 651.5,3.5 663,24 651.5,44.5 628.5,44.5"
+           fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
 
-  <!-- center diamond -->
-  <rect x="633" y="15" width="14" height="14" rx="2" transform="rotate(45 640 22)" fill="#0a0b0d" stroke="#5eead4" stroke-opacity="0.9">
-    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.6s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- four corner registration ticks -->
-  <g stroke="#5eead4" stroke-opacity="0.5" stroke-width="1.3" stroke-linecap="round" fill="none">
-    <path d="M606 14 V7 H613"/>
-    <path d="M674 14 V7 H667"/>
-    <path d="M606 30 V37 H613"/>
-    <path d="M674 30 V37 H667"/>
-  </g>
-
-  <!-- trailing dots (right) -->
-  <circle cx="694" cy="22" r="1.6" fill="#5eead4" fill-opacity="0.5"/>
-  <circle cx="710" cy="22" r="1.3" fill="#5eead4" fill-opacity="0.32"/>
-  <circle cx="726" cy="22" r="1.1" fill="#5eead4" fill-opacity="0.18"/>
-  <!-- trailing dots (left) -->
-  <circle cx="586" cy="22" r="1.6" fill="#5eead4" fill-opacity="0.5"/>
-  <circle cx="570" cy="22" r="1.3" fill="#5eead4" fill-opacity="0.32"/>
-  <circle cx="554" cy="22" r="1.1" fill="#5eead4" fill-opacity="0.18"/>
+  <!-- teal down-chevron (sits on the dark hex => good contrast in both themes) -->
+  <path d="M632 20.5 L640 28 L648 20.5" fill="none" stroke="#5eead4" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

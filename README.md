@@ -61,22 +61,11 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<img src="assets/header-arsenal.svg" width="100%" alt="02 / My Arsenal — core technologies" />
+<img src="assets/header-arsenal.svg" width="100%" alt="02 / My Arsenal — the full stack" />
 
 <img src="assets/arsenal.svg" width="100%" alt="Core technologies: JavaScript, React, Java Spring Boot, MySQL. Full stack — Languages: Java, TypeScript, JavaScript · Backend: Spring Boot, FastAPI, Node.js, MySQL · Frontend: React, Next.js, Vite, React Native, React Router · Tools: Git, Postman, Vercel, Supabase · Design: Photoshop, Canva" />
 
 <img src="assets/divider.svg" width="100%" alt="" />
-
-<a href="https://amit-suissa-portfolio.vercel.app/">
-  <img src="assets/connect-banner.svg" width="100%" alt="Let's build something. Open to full-stack roles — hybrid or on-site. Find me on GitHub or LinkedIn." />
-</a>
-
-<p align="center">
-  <a href="https://github.com/AMIT655"><img src="assets/social-github.svg" height="44" alt="GitHub" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/amit-suisa-71880741a/"><img src="assets/social-linkedin.svg" height="44" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:Amits5777@gmail.com"><img src="assets/social-email.svg" height="44" alt="Email" /></a>&nbsp;
-  <a href="https://amit-suissa-portfolio.vercel.app/"><img src="assets/social-portfolio.svg" height="44" alt="Portfolio" /></a>
-</p>
 
 <br />
 
